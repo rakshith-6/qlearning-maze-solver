@@ -6,20 +6,21 @@ WINDOW_WIDTH = GRID_WIDTH * CELL_SIZE
 WINDOW_HEIGHT = GRID_HEIGHT * CELL_SIZE
 
 # Maze Layout
-START_POS = (0, 0)
-GOAL_POS = (GRID_WIDTH - 1, GRID_HEIGHT - 1)
-OBSTACLES_POS = set([
+START_STATE = (0, 0)
+GOAL_STATE = (GRID_WIDTH - 1, GRID_HEIGHT - 1)
+OBSTACLES_POS = [
         [(8, 8), (8, 9), (9, 8), (9, 9), (10, 8)],
         [(18, 18), (18, 19), (19, 18), (19, 19), (20, 18), (19, 17)],
         [(25, 25), (25, 26), (26, 25), (26, 26), (27, 25)], 
         [(30, 10), (30, 11), (31, 10), (31, 11), (32, 10)], 
         [(35, 35), (35, 36), (36, 35), (36, 36), (37, 35)]  
-])
+]
+OBSTACLES = {cell for group in OBSTACLES_POS for cell in group}
 
 # Colors
 '''
 Grid cells - white
-Obstacles - black
+Obstacles - blackpass
 Start cell - red
 Goal cell - green
 Agent - yellow
