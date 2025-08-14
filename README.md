@@ -5,6 +5,10 @@ An agent is trained using tabular Q-learning to navigate and solve a grid based 
 - The agent should use tabular Q-learning and learn Q-values corresponding to all the cells in the grid i.e, we learn a table of Q-values tabulated against the corresponding states and actions.
 - The agent uses epsilon greedy policy while learning and will finally extract the path using a greedy policy.
 
+<div align="center">
+  <img src="assets/sim.gif" alt="App Demo" width="400"/>
+</div>
+
 ### How to run this code
 
 1. Clone the repository - In terminal(vs code or any other) navigate to location where you want to clone the repository(using cd) and use,   
