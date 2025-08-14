@@ -19,20 +19,20 @@ OBSTACLES = {cell for group in OBSTACLES_POS for cell in group}
 
 # Colors
 '''
-Grid cells - white
+Grid backround - white
+Grid line - grey
 Obstacles - blackpass
 Start cell - red
 Goal cell - green
 Agent - yellow
 Final path - blue
-
 '''
 WHITE = (255, 255, 255)
+GRAY = (170, 170, 170)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
-GRAY = (170, 170, 170)
 YELLOW = (255, 255, 0)
 
 # Q-Learning parameters - Learning rate, Discount factor and exploration rate respectively
@@ -51,5 +51,9 @@ We have three types of rewards here
 3) Reward for reaching the goal - High positive, encouraging reaching the goal state
 '''
 STEP_REWARD = -1
-OBSTACLE_AVOIDANCE_REWARD = -200
-GOAL_REWARD = 200
+OBSTACLE_AVOIDANCE_REWARD = -300
+GOAL_REWARD = 100
+
+# Early stopping parameters
+CONVERGENCE_THRESHOLD = 1e-3
+PATIENCE_COUNT = 5
