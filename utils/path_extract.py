@@ -28,7 +28,7 @@ def final_path(MazeSolver):
         state = next_state
         path.append(state)
         
-        drawDisplay(MazeSolver, cur_pos=state, epi_num=None, q_show=False)
+        drawDisplay(MazeSolver, cur_pos=state, epi_num=None, q_show=True)
         
         if len(path) > 1:
             pygame.draw.lines(MazeSolver.screen, BLUE, False, [(p[0] * CELL_SIZE + CELL_SIZE//2, p[1] * CELL_SIZE + CELL_SIZE//2) for p in path], 5)

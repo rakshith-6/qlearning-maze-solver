@@ -51,7 +51,7 @@ class MazeSolver:
         if not self.is_valid_state(next_state_choice):
             reward = OBSTACLE_AVOIDANCE_REWARD
             next_state = state
-            done = True
+            done = False
         elif next_state_choice == GOAL_STATE:
             reward = GOAL_REWARD
             next_state = next_state_choice
