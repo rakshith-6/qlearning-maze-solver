@@ -1,8 +1,8 @@
 # qlearning-maze-solver
 An agent is trained using tabular Q-learning to navigate and solve a grid-based maze
 
-- The environment consists of a 30X30 grid with a start cell at one corner and a goal cell at the opposite corner with a maze layout.
-- The agent learn Q-values corresponding to all the cells in the grid and populates the table of Q-values tabulated against the corresponding states and actions.
+- The environment consists of a 30X30 grid with a start cell at one corner, a goal cell at the opposite corner and a maze layout to navigate.
+- The agent learn Q-values corresponding to all the cells(states) in the grid and populates the table of Q-values tabulated against the corresponding states and actions.
 - The agent uses an epsilon-greedy policy while learning and will finally extract the path using a greedy policy.
 
 <div align="center">
