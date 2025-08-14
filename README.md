@@ -6,7 +6,7 @@ An agent is trained using tabular Q-learning to navigate and solve a grid based 
 - The agent uses epsilon greedy policy while learning and will finally extract the path using a greedy policy.
 
 <div align="center">
-  <img src="assets/sim.gif" alt="App Demo" width="400"/>
+  <img src="assets/sim.gif" alt="App Demo" width="600"/>
 </div>
 
 ### How to run this code
