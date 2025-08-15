@@ -23,10 +23,14 @@ In Debian-based OSs to install python virtual environment, run in terminal the f
 ```
 sudo apt-get install python3-venv
 ```
-Navigate to the cloned repo folder and use the following commands to create and activate the virtual environment 
+Navigate to the cloned repo folder and use the following commands to create and activate the virtual environment (Sometimes may need to select the interpreter manually even after activating in VS Code. Just select path to python.exe in .venv folder)
 ```
+# In Ubuntu
 python3 -m venv .venv
-source venv/bin/activate 
+source venv/bin/activate
+# In Windows
+python -m venv .venv
+.\.venv\Scripts\activate
 ```
 3. To install all the required libraries run,
 
