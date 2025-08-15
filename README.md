@@ -39,4 +39,9 @@ pip install -r requirements.txt
 # or run
 python3 -m pip install -r requirements.txt
 ```
-4. Run main.py
+4. Run
+```
+python main.py
+# or
+python3 main.py
+```
