@@ -11,7 +11,7 @@ An agent is trained using tabular Q-learning to navigate and solve a grid-based 
 
 ### How to run this code
 
-1. Clone the repository - In terminal(vs code or any other) navigate to location where you want to clone the repository(using cd) and use,   
+1. Clone the repository - In terminal(VS Code or any other) navigate to location where you want to clone the repository(using cd) and use,   
 ```
 git clone https://github.com/rakshith-6/qlearning-maze-solver.git
 ``` 
