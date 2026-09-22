@@ -7,7 +7,7 @@
 5. [References](#references)
 ---
 ### Overview
-An agent is trained using tabular Q-learning to navigate and solve a grid-based maze
+An agent is trained using tabular Q-learning to navigate and solve a grid-based maze.
 
 ### File structure
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 ##### Run project
 ```
-#
+# Navigate to cloned project repository
 cd qlearning-maze-solver
 python main.py
 ```
